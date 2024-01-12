@@ -12,6 +12,8 @@ html {
 
 body {
     font-size: 1.6rem;
+    background: hsl(275, 100%, 97%);
+    ;
 }
 
 .attribution {
@@ -22,3 +24,7 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 375px) {}

@@ -10,6 +10,13 @@ html {
     font-size: 62.5%;
 }
 
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-pink: hsl(275, 100%, 97%);
+    --grayish-purple: hsl(292, 16%, 49%);
+    --dark-purple: hsl(292, 42%, 14%);
+}
+
 /* attributtion styling */
 
 .attribution {
@@ -22,8 +29,11 @@ html {
 }
 
 body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-size: 1.6rem;
-    background: hsl(275, 100%, 97%);
+    background: var(--light-pink);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -33,8 +43,25 @@ body {
 
 main {
     padding: 3rem;
-    max-width: 60rem;
-    background: hsl(0, 0%, 100%);
+    max-width: 50rem;
+    background: var(--white);
+}
+
+h1,
+summary,
+details {
+    margin-bottom: 4rem;
+}
+
+summary {
+    font-weight: 600;
+    color: var(--dark-purple);
+
+}
+
+details {
+    width: 100%;
+    color: var(--grayish-purple);
 }
 
 @media screen and (max-width: 1440px) {}

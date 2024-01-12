@@ -101,6 +101,7 @@ summary:hover {
 }
 
 details {
+    padding-bottom: 2rem;
     width: 100%;
     color: var(--grayish-purple);
     border-bottom: 1px solid var(--light-pink);

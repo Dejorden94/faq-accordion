@@ -10,11 +10,7 @@ html {
     font-size: 62.5%;
 }
 
-body {
-    font-size: 1.6rem;
-    background: hsl(275, 100%, 97%);
-    ;
-}
+/* attributtion styling */
 
 .attribution {
     font-size: 11px;
@@ -24,6 +20,18 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+body {
+    font-size: 1.6rem;
+    background: hsl(275, 100%, 97%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {}
 
 @media screen and (max-width: 1440px) {}
 

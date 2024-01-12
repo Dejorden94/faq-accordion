@@ -123,4 +123,12 @@ details[open]>summary::before {
 
 @media screen and (max-width: 1440px) {}
 
-@media screen and (max-width: 375px) {}
+@media screen and (max-width: 375px) {
+    summary {
+        max-width: 80%;
+    }
+
+    details>summary::before {
+        right: -5rem;
+    }
+}

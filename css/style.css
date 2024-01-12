@@ -85,7 +85,7 @@ figure::before {
 
 h1,
 details {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 summary {
@@ -101,7 +101,7 @@ summary:hover {
 }
 
 details {
-    padding-bottom: 2rem;
+    padding: 2rem 0;
     width: 100%;
     color: var(--grayish-purple);
     border-bottom: 1px solid var(--light-pink);

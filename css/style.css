@@ -15,6 +15,7 @@ html {
     --light-pink: hsl(275, 100%, 97%);
     --grayish-purple: hsl(292, 16%, 49%);
     --dark-purple: hsl(292, 42%, 14%);
+    --purple-normal: HSL(277, 74%, 54%);
 }
 
 /* attributtion styling */
@@ -43,8 +44,9 @@ body {
 
 main {
     padding: 3rem;
-    max-width: 50rem;
+    max-width: 55rem;
     background: var(--white);
+    border-radius: 1rem;
 }
 
 h1,
@@ -62,6 +64,26 @@ summary {
 details {
     width: 100%;
     color: var(--grayish-purple);
+}
+
+details>summary {
+    list-style: none;
+    position: relative;
+
+}
+
+details>summary::before {
+    position: absolute;
+    right: 0;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 50%;
+    content: "+";
+    color: var(--white);
+    background: var(--purple-normal);
+
 }
 
 @media screen and (max-width: 1440px) {}

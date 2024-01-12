@@ -87,6 +87,11 @@ details>summary::before {
 
 }
 
+details[open]>summary::before {
+    content: "-";
+    background: var(--dark-purple);
+}
+
 @media screen and (max-width: 1440px) {}
 
 @media screen and (max-width: 375px) {}

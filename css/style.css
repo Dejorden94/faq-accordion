@@ -43,10 +43,11 @@ body {
 }
 
 main {
-    padding: 3rem;
+    padding: 4rem;
     max-width: 55rem;
     background: var(--white);
     border-radius: 1rem;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, .1);
 }
 
 h1,

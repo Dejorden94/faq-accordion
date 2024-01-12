@@ -50,12 +50,12 @@ main {
 }
 
 h1,
-summary,
 details {
     margin-bottom: 4rem;
 }
 
 summary {
+    margin-bottom: 3rem;
     font-weight: 600;
     color: var(--dark-purple);
 

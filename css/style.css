@@ -30,6 +30,7 @@ html {
 }
 
 body {
+    padding: 0 2rem;
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -55,20 +56,20 @@ h1 {
     align-items: center;
 }
 
-.four-point-star::after,
-.four-point-star::before {
+figure::after,
+figure::before {
     content: "\2726";
     font-size: 3rem;
 }
 
-.four-point-star::after {
+figure::after {
     /* The foreground star */
     background: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.four-point-star::before {
+figure::before {
     color: var(--purple-normal);
 }
 
@@ -84,9 +85,15 @@ summary {
 
 }
 
+summary:hover {
+    color: var(--purple-normal);
+    cursor: pointer;
+}
+
 details {
     width: 100%;
     color: var(--grayish-purple);
+    border-bottom: 1px solid var(--light-pink);
 }
 
 details>summary {
